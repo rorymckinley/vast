@@ -9,4 +9,6 @@ gem 'rake'
 group :test do
   # alternative runners for MiniTest, both colorful and informative.
   gem 'turn', :require => false
+  gem 'minitest'
+  gem 'test-unit'
 end
